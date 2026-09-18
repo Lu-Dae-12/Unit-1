@@ -1,0 +1,3 @@
+def message(input):
+    print(input)
+message("Hello, World!")
