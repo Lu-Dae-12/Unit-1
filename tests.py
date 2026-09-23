@@ -1,10 +1,9 @@
-#defining a function
+import turtle
+t = turtle
+x=100
 
-""" def add (x, y):
-    #vars created inside a function only exist inside that function
-    #print(x + y)
-    return x + y
-#call the function/invoke the function
-print(add(5,15 ))
-z=add(5,15)
-print(z) """
+for i in range(3):
+    for j in range (4):
+        t.forward(x)
+        t.left(90)
+    t.right(5)
