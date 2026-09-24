@@ -7,4 +7,3 @@ for i in range(60):
         t.forward(x)
         t.left(90)
     t.right(5)
-
