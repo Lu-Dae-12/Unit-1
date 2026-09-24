@@ -8,10 +8,3 @@ for i in range(60):
         t.left(90)
     t.right(5)
 
-    sidelength = 100
-rotate = 90
-def square(x,y):
-    for i in range(4):
-        t.forward(x)
-        t.left(y)
-triangle(100,90)
