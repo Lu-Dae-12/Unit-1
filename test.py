@@ -1,15 +1,18 @@
-""" age = 66
-if age > 65:
-    print("Senior citizen.")
-elif age > 18:
-    print("Adult.")
-else:
-    print("Child.") """
-""" has_key = False
-is_magic = True
-if has_key and is_magic:
-    print("You can open the door.")
-else:
-    print("Enter castle")
-else:
-    print("Cannot enter") """
+import turtle
+from turtle
+
+t = turtle 
+
+def rectangle(x):
+    t.forward(x)
+    t.left(100)
+
+    t.forward(x)
+    t.left(125)
+
+    t.forward(x)
+    t.left(100)
+
+    t.forward(x)
+    t.left(125)
+rectangle (200)
