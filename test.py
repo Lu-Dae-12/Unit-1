@@ -1,18 +1,13 @@
 import turtle
-from turtle
+t = turtle
+x=100
 
 t = turtle 
-
-def rectangle(x):
-    t.forward(x)
-    t.left(100)
-
-    t.forward(x)
-    t.left(125)
-
-    t.forward(x)
-    t.left(100)
-
-    t.forward(x)
-    t.left(125)
-rectangle (200)
+for i in range(3):
+    print(i)
+def doubleSquares(iRange):
+    length = 25
+    for i in range(iRange):
+        square(length, 90)
+        length = length * 2
+doubleSquares(5)
