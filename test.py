@@ -1,13 +1,23 @@
 import turtle
-t = turtle
-x=100
 
+x=100
 t = turtle 
-for i in range(3):
-    print(i)
+
+def triangle() :
+    sidelength = 100
+rotate = 90
+def square(x,y):
+    for i in range(4):
+        t.forward(x)
+        t.left(y)
+triangle(100,90)
+
+def square() :
+    for i in range(3):
+        print(i)
 def doubleSquares(iRange):
     length = 25
     for i in range(iRange):
         square(length, 90)
-        length = length * 2
+        length += 25
 doubleSquares(5)
