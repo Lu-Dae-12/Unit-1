@@ -1,7 +1,7 @@
 for i in range(5):
     print(i)
 
-def square(loop):
+def square():
 
     def addSquares(iRange):
         length = 25
