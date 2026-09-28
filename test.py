@@ -9,12 +9,6 @@ for i in range(3):
         t.forward(100)
     t.left(90)
 
-for i in range(60):
-    for j in range (4):
-        t.forward(x)
-        t.left(90)
-    t.right(5)
-
 def triangle ():
     sidelength = 100
 rotate = 90
